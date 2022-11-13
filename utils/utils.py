@@ -11,4 +11,4 @@ class Utils:
     self.process.start()
   
   def command(self):
-    command(self.data)
+    self.command(self.data)
