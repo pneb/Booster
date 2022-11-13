@@ -7,7 +7,7 @@ class Booster:
     self.windows = Windows()
   
   def boost(self):
-    utils.execute(self.command)
+    self.utils.execute(self.command)
   
   def command(self):
     self.windows.optimize()
